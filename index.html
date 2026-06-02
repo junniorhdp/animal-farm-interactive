@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Animal Farm | A Manual for Vigilance</title>
+
+    <link rel="icon" type="image/png" href="assets/icons/pig.png">
+
+    <meta name="description"
+        content="An interactive digital experience inspired by George Orwell's Animal Farm. Explore the story, characters, symbolism, and timeless warnings about power and propaganda.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="pig-track">
+    <img src="assets/icons/cerdito.png"
+         class="pig-scroll"
+         alt="Pig">
+</div>
+
+
+    <!-- ========================= -->
+    <!-- PRELOADER -->
+    <!-- ========================= -->
+
+    <div class="preloader">
+        <h1>ANIMAL FARM</h1>
+        <p>A Manual for Vigilance</p>
+    </div>
+
+    <!-- ========================= -->
+    <!-- NAVIGATION -->
+    <!-- ========================= -->
+
+    <nav class="navbar">
+        <div class="logo">
+            Animal Farm
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#journey">Story</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#symbolism">Symbolism</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+
+    <header class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="hero-subtitle">
+                George Orwell's Political Allegory
+            </span>
+
+            <h1>
+                Animal Farm
+            </h1>
+
+            <p>
+                A timeless warning about power, propaganda,
+                and the corruption of revolutionary ideals.
+            </p>
+
+            <a href="#introduction" class="btn-primary">
+                Begin the Journey
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- INTRODUCTION -->
+    <!-- ========================= -->
+
+    <section id="introduction" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Why Does Animal Farm Still Matter?</h2>
+            </div>
+
+            <div class="intro-content">
+
+                <div class="intro-text">
+                    <p>
+                        Published in 1945, Animal Farm remains one of the
+                        most influential political allegories ever written.
+                    </p>
+
+                    <p>
+                        Through the rise and fall of a revolutionary farm,
+                        George Orwell explores how power can corrupt ideals,
+                        manipulate truth, and reshape society.
+                    </p>
+                </div>
+
+                <div class="intro-image">
+                    <img src="assets/poster/Poster.png"
+                        alt="Animal Farm Poster">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- STORY JOURNEY -->
+    <!-- ========================= -->
+
+    <section id="journey" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>The Story Journey</h2>
+                <p>
+                    Follow the events that transformed a dream of equality
+                    into a system of oppression.
+                </p>
+            </div>
+
+            <!-- JavaScript llenará esto -->
+            <div id="story-container"></div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- RISE OF POWER -->
+    <!-- ========================= -->
+
+    <section id="power" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>The Corruption of Power</h2>
+
+            <p>
+                A revolution begins with hope and ends with oppression.
+            </p>
+        </div>
+
+        <div class="power-path">
+
+            <div class="power-step">
+                <span>01</span>
+                <h3>Dream</h3>
+            </div>
+
+            <div class="power-step">
+                <span>02</span>
+                <h3>Revolution</h3>
+            </div>
+
+            <div class="power-step">
+                <span>03</span>
+                <h3>Leadership</h3>
+            </div>
+
+            <div class="power-step">
+                <span>04</span>
+                <h3>Control</h3>
+            </div>
+
+            <div class="power-step">
+                <span>05</span>
+                <h3>Propaganda</h3>
+            </div>
+
+            <div class="power-step">
+                <span>06</span>
+                <h3>Fear</h3>
+            </div>
+
+            <div class="power-step">
+                <span>07</span>
+                <h3>Tyranny</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ========================= -->
+    <!-- CHARACTERS -->
+    <!-- ========================= -->
+
+    <section id="characters" class="section">
+        
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Characters & Allegories</h2>
+            </div>
+
+            <div class="characters-grid">
+
+                <article class="character-card">
+
+                    <img
+        src="assets/characters/napoleon.jpg"
+        alt="Napoleon"
+        class="character-image"
+    >
+
+    <div class="character-header">
+        <span class="character-role">Power</span>
+        <h3>Napoleon</h3>
+    </div>
+
+    <p>
+        Represents Joseph Stalin and the corruption
+        of revolutionary leadership.
+    </p>
+
+</article>
+
+<article class="character-card">
+
+    <img
+        src="assets/characters/snowball.jpg"
+        alt="Napoleon"
+        class="character-image"
+    >
+
+    <div class="character-header">
+        <span class="character-role">Vision</span>
+        <h3>Snowball</h3>
+    </div>
+
+    <p>
+        Represents Leon Trotsky and ideological reform.
+    </p>
+
+</article>
+
+<article class="character-card">
+
+    <img
+        src="assets/characters/Boxer.webp"
+        alt="Napoleon"
+        class="character-image"
+    >
+
+    <div class="character-header">
+        <span class="character-role">Loyalty</span>
+        <h3>Boxer</h3>
+    </div>
+
+    <p>
+        Represents the hardworking working class.
+    </p>
+
+</article>
+
+<article class="character-card">
+
+    <img
+        src="assets/characters/cerdomalo2.png"
+        alt="Napoleon"
+        class="character-image"
+    >
+
+    <div class="character-header">
+        <span class="character-role">Propaganda</span>
+        <h3>Squealer</h3>
+    </div>
+
+    <p>
+        Represents propaganda and manipulation.
+    </p>
+
+</article>
+
+
+<article class="character-card">
+
+    <img
+        src="assets/characters/Old_Major_29.webp"
+        alt="Napoleon"
+        class="character-image"
+    >
+
+    <div class="character-header">
+        <span class="character-role">Revolution</span>
+        <h3>Old Major</h3>
+    </div>
+
+    <p>
+        Represents the origins of revolutionary ideals.
+    </p>
+
+</article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- SYMBOLISM -->
+    <!-- ========================= -->
+
+    <section id="symbolism" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Symbols of the Farm</h2>
+            </div>
+
+            <div class="symbol-grid">
+
+                <div class="symbol-card">
+
+    <div class="symbol-icon">⚙</div>
+
+    <h3>The Windmill</h3>
+
+    <p>
+        A symbol of political promises,
+        labor, and manipulation.
+    </p>
+
+</div>
+
+
+<div class="symbol-card">
+
+    <div class="symbol-icon">⚙</div>
+
+    <h3>The Dogs</h3>
+
+    <p>
+        Fear, repression and control.
+    </p>
+
+</div>
+
+<div class="symbol-card">
+
+    <div class="symbol-icon">⚙</div>
+
+    <h3>The Commandments</h3>
+
+    <p>
+        The manipulation of truth.
+    </p>
+
+</div>
+
+<div class="symbol-card">
+
+    <div class="symbol-icon">⚙</div>
+
+    <h3>The Commandments</h3>
+
+    <p>
+        The manipulation of truth.
+    </p>
+
+</div>
+
+<div class="symbol-card">
+
+    <div class="symbol-icon">⚙</div>
+
+    <h3>The Pigs</h3>
+
+    <p>
+        The corruption of power.
+    </p>
+
+</div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- ALLEGORY -->
+    <!-- ========================= -->
+
+    <section id="allegory" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>The Historical Allegory</h2>
+            </div>
+
+            <div class="allegory-table">
+
+                <div class="allegory-row">
+    <span>Napoleon</span>
+    <span>Joseph Stalin</span>
+</div>
+
+<div class="allegory-row">
+    <span>Snowball</span>
+    <span>Leon Trotsky</span>
+</div>
+
+<div class="allegory-row">
+    <span>Mr. Jones</span>
+    <span>Tsar Nicholas II</span>
+</div>
+
+<div class="allegory-row">
+    <span>Squealer</span>
+    <span>State Propaganda</span>
+</div>
+
+<div class="allegory-row">
+    <span>Dogs</span>
+    <span>Secret Police</span>
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- VIDEO -->
+    <!-- ========================= -->
+
+    <section id="video" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Watch the Story Unfold</h2>
+            </div>
+
+            <div class="video-wrapper">
+
+                <p class="video-description">
+    Experience Animal Farm through a visual interpretation
+    that captures Orwell's warning about power and corruption.
+</p>
+
+                <video controls>
+                    <source src="assets/video/WhatsApp Video 2026-06-01 at 5.35.34 PM.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- QUOTES -->
+    <!-- ========================= -->
+
+    <section id="quotes" class="section">
+
+        <div class="quote-card">
+
+    <span class="quote-number">01</span>
+
+    <blockquote>
+        Four legs good, two legs bad.
+    </blockquote>
+
+</div>
+
+<div class="quote-card">
+
+    <span class="quote-number">02</span>
+
+    <blockquote>
+        “Napoleon is always right.”
+    </blockquote>
+
+</div>
+
+<div class="quote-card">
+
+    <span class="quote-number">03</span>
+
+    <blockquote>
+         “All animals are equal, but some animals are more equal than others.”
+    </blockquote>
+
+</div>
+
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- MODERN RELEVANCE -->
+    <!-- ========================= -->
+
+    <section id="modern" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Why Animal Farm Still Matters Today</h2>
+            </div>
+
+            <div class="modern-grid">
+
+                <div class="modern-card">
+                    <h3>Power</h3>
+                    <p>How authority becomes domination.</p>
+                </div>
+
+                <div class="modern-card">
+                    <h3>Propaganda</h3>
+                    <p>How information shapes reality.</p>
+                </div>
+
+                <div class="modern-card">
+                    <h3>Memory</h3>
+                    <p>How history can be rewritten.</p>
+                </div>
+
+                <div class="modern-card">
+                    <h3>Vigilance</h3>
+                    <p>Why critical thinking matters.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- QUIZZ -->
+    <!-- ========================= -->
+
+
+<section id="quiz" class="section">
+
+    <div class="container">
+
+        <div class="quiz-progress">
+
+    <div id="progress-bar"></div>
+
+</div>
+
+<p id="question-counter"></p>
+
+        <div class="section-title">
+            <h2>Test Your Knowledge</h2>
+            <p>
+                How well do you understand the story,
+                symbolism and allegories of Animal Farm?
+            </p>
+        </div>
+
+        <div class="quiz-container">
+
+            <div id="question-container">
+
+                <h3 id="question"></h3>
+
+                <div id="answers"></div>
+
+            </div>
+
+            <button id="next-btn">
+                Next Question
+            </button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ========================= -->
+    <!-- REFLECTION -->
+    <!-- ========================= -->
+
+    <section id="reflection">
+
+        <h2>Questions Worth Asking</h2>
+
+        <p>Can truth survive propaganda?</p>
+        <p>Can freedom survive fear?</p>
+        <p>Can equality survive privilege?</p>
+        <p>Can citizens remain vigilant?</p>
+
+    </section>
+    <!-- ========================= -->
+    <!-- REFLECTION -->
+    <!-- ========================= -->
+
+    <section id="reflection">
+
+        <div class="container">
+
+            <h2>Questions Worth Asking</h2>
+
+            <p>Can truth survive propaganda?</p>
+            <p>Can freedom survive fear?</p>
+            <p>Can equality survive privilege?</p>
+            <p>Can citizens remain vigilant?</p>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <h2>The End</h2>
+
+            <p class="footer-text">
+                Animal Farm is more than a story about animals.
+                It is a warning about power, the fragility of truth,
+                and the responsibility of every generation to remain vigilant.
+            </p>
+
+            <div class="footer-divider"></div>
+
+            <p class="footer-credit">
+                Inspired by George Orwell's Animal Farm
+            </p>
+
+            <p class="footer-year">
+                Digital Interactive Experience
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ========================= -->
+<!-- MUSIC PLAYER -->
+<!-- ========================= -->
+
+<div class="music-player">
+
+    <button id="music-toggle">
+        🎵 Play Music
+    </button>
+
+    <audio id="bg-music" loop>
+        <source src="assets/audio/Classical Music in the Dark Library.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+
+ <button id="backToTop">↑</button>
+
+    <script src="js/chapters.js"></script>
+    <script src="js/main.js"></script>
+
+   
+
+</body>
+</html>
